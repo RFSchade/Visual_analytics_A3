@@ -1,0 +1,25 @@
+INFO:  2022-04-30 17:33:10,087 - sparkmonitorkernel - 1248 - MainProcess -         140432146310976 - MainThread
+ Starting Kernel Extension 
+
+INFO:  2022-04-30 17:33:10,228 - sparkmonitorkernel - 1248 - MainProcess -         140432146310976 - MainThread
+ Socket Listening on port 54599 
+
+INFO:  2022-04-30 17:33:10,229 - sparkmonitorkernel - 1248 - MainProcess -         140422437111552 - Thread-7
+ Starting socket thread, going to accept 
+
+INFO:  2022-04-30 17:33:10,230 - sparkmonitorkernel - 1248 - MainProcess -         140432146310976 - MainThread
+ 54599 
+
+INFO:  2022-04-30 17:33:10,230 - sparkmonitorkernel - 1248 - MainProcess -         140432146310976 - MainThread
+ Adding jar from /opt/conda/lib/python3.9/site-packages/sparkmonitor/listener.jar  
+
+INFO:  2022-04-30 17:35:49,600 - sparkmonitorkernel - 1248 - MainProcess -         140432146310976 - MainThread
+ COMM OPENED MESSAGE: 
+ {'header': {'date': datetime.datetime(2022, 4, 30, 15, 35, 44, 481000, tzinfo=tzutc()), 'msg_id': '03a61de6-7621-4e2f-88eb-f3a9a61266a5', 'msg_type': 'comm_open', 'session': '620dac21-f73d-4380-a8d3-a2c58946198c', 'username': '', 'version': '5.2'}, 'msg_id': '03a61de6-7621-4e2f-88eb-f3a9a61266a5', 'msg_type': 'comm_open', 'parent_header': {}, 'metadata': {}, 'content': {'comm_id': 'd2353392-bd91-4196-9d0b-c5dcb5fdca5f', 'target_name': 'SparkMonitor', 'data': {'msgtype': 'openfromfrontend'}}, 'buffers': []} 
+ 
+
+INFO:  2022-04-30 17:35:49,605 - sparkmonitorkernel - 1248 - MainProcess -         140432146310976 - MainThread
+ COMM OPENED MESSAGE: 
+ {'header': {'date': datetime.datetime(2022, 4, 30, 15, 35, 44, 481000, tzinfo=tzutc()), 'msg_id': '0d85efaf-a147-4e79-b457-fb1d680dc822', 'msg_type': 'comm_open', 'session': '620dac21-f73d-4380-a8d3-a2c58946198c', 'username': '', 'version': '5.2'}, 'msg_id': '0d85efaf-a147-4e79-b457-fb1d680dc822', 'msg_type': 'comm_open', 'parent_header': {}, 'metadata': {}, 'content': {'comm_id': '01db218c-a69f-498f-8483-252e471d4f26', 'target_name': 'SparkMonitor', 'data': {'msgtype': 'openfromfrontend'}}, 'buffers': []} 
+ 
+
