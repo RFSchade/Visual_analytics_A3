@@ -40,6 +40,10 @@ from sklearn.metrics import classification_report
 import numpy as np
 import matplotlib.pyplot as plt
 
+#=====> Define global variables:
+# Number of epochs
+EPOCHS = 20
+
 #=====> Define functions
 # > Prepate data
 def prep_data():
@@ -147,15 +151,20 @@ def plot_history(H, epochs):
 
 #=====> Define main()
 def main():
+    # Load data 
     (X_train, y_train), (X_test, y_test), label_names = prep_data()
+    # Create model
     model = create_model()
+    # Train model
     history = model.fit(X_train, y_train,
-             validation_data = (X_test, y_test), # Was there a way to split up the validation data further?
+             validation_data = (X_test, y_test),
              batch_size = 128, # two to the power of something to optimize memory
-             epochs = 10, # Should I change this later? Perhaps make an argument that allows the user to specify so I don't have to think about it?
+             epochs = EPOCHS, 
              verbose = 1) # Tell me what is happening 
+    # Evaluate model
     evaluate(model, X_test, y_test, label_names)
-    plot_history(history, 10)
+    # Plot history
+    plot_history(history, EPOCHS)
 
 # Run main() function from terminal only
 if __name__ == "__main__":
